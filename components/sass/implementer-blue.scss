@@ -1,0 +1,35 @@
+@function implementer-color($color) {
+  @if ($color == 1) {
+    @return $blue-color;
+  } @else {
+    @if ($color == 2) {
+      @return $blue-color;
+    } @else {
+      @if ($color == 3) {
+        @return $light-blue;
+      } @else {
+        @if ($color == 4) {
+          @return $lightest-blue;
+        }
+      }
+    }
+  }
+}
+
+@function implementer-dashboard-bg($dbg) {
+@if ($dbg == 1) {
+  @return url(../images/dashboard-implementer.jpg) repeat-x top left $white-color;
+}
+}
+
+@function implementer-invite-btn($bg) {
+  @if ($bg == 1) {
+    @return $invite-frnd-btn-ip;
+  }
+}
+
+.implementer .arrow {
+  background: url(../images/implementer-carousel_arrows.png) no-repeat 50% 0;
+}
+
+

@@ -1,0 +1,41 @@
+@function beneficiary-color($color) {
+  @if ($color == 1) {
+    @return $light-green;
+  } @else {
+    @if ($color == 2) {
+      @return $green-color;
+    } @else {
+      @if ($color == 3) {
+        @return $green-color;
+      } @else {
+        @if ($color == 4) {
+          @return $lightest-green;
+        }
+      }
+    }
+  }
+}
+
+@function beneficiary-dashboard-bg($dbg) {
+  @if ($dbg == 1) {
+    @return url(../images/dashboard-beneficiary.jpg) repeat-x top left $white-color;
+  }
+}
+
+@function beneficiary-invite-btn($bg) {
+  @if ($bg == 1) {
+    @return $invite-frnd-btn-bf;
+  }
+}
+
+
+.beneficiary-projects {
+  color: $light-green !important;
+  font-family: $opensans;
+  font-size: $base-font-size;
+  font-weight: 400;
+}
+
+.beneficiary .arrow {
+  background: url(../images/carousel_arrows.png) no-repeat 50% 0;
+}

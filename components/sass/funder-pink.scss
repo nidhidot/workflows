@@ -1,0 +1,41 @@
+@function funder-color($color) {
+  @if ($color == 1) {
+    @return $pink-color;
+  } @else {
+    @if ($color == 2) {
+      @return $pink-color;
+    } @else {
+      @if ($color == 3) {
+        @return $light-pink;
+      } @else {
+        @if ($color == 4) {
+          @return $lightest-pink;
+        }
+      }
+    }
+  }
+}
+
+@function funder-invite-btn($bg) {
+  @if ($bg == 1) {
+    @return $invite-btn-fonder;
+  }
+}
+
+
+@function funder-dashboard-bg($dbg) {
+  @if ($dbg == 1) {
+    @return url(../images/dashboard-funder.jpg) repeat-x top left $white-color;
+  }
+}
+
+.funder-projects {
+  color: $light-green !important;
+  font-family: $opensans;
+  font-size: $base-font-size;
+  font-weight: 400;
+}
+
+.funder .arrow {
+  background: url(../images/funder-carousel_arrows.png) no-repeat 50% 0;
+}

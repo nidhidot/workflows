@@ -1,0 +1,12 @@
+{
+  "name": "workflows",
+  "version": "1.0.0",
+  "description": "This is a sample workflow",
+   
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Nidhi",
+  "license": "ISC"
+}
