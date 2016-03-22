@@ -84,6 +84,7 @@ a:focus {
 
 .left-sidebar-panel, .funder .left-sidebar-panel, .implementer .left-sidebar-panel, .beneficiary .left-sidebar-panel {
   margin-top: 20px;
+  padding: 10px;
 }
 .left-sidebar-panel h2, .funder .left-sidebar-panel h2, .implementer .left-sidebar-panel h2, .beneficiary .left-sidebar-panel h2 {
   color: #fff;
